@@ -8,7 +8,9 @@ public class Practice {
 		 int a = 10;
 		 int b = 15;
 		 
-		 System.out.println(a+b);
+		 int r = a + b;
+		 
+		 System.out.println(r);
 		
 	}
 	
