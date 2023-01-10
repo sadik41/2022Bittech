@@ -16,13 +16,13 @@ import java.sql.Statement;
  */
 public class ReadDB {
 	
-	public void jdbc() throws SQLException {
+	public void jdbc() throws SQLException, ClassNotFoundException {
 		
 		Class.forName("com.mysql.jdbc.Driver");
 		
 		Connection con = DriverManager.getConnection("", "", " ");
 		Statement st  = con.createStatement();
-		ResultSet rs = st.executeQuery();
+		ResultSet rs = st.executeQuery("");
 		
 		// added new code 
 		
