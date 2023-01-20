@@ -22,6 +22,7 @@ public class BaseTest {
     public void AfterMethod() {
 
         System.out.println("After Method");
+        System.out.println("Jenkins Practice");
     }
 
     @BeforeClass
